@@ -41,6 +41,7 @@ h1{
     height: 60vh;
     width: 30vw;
     margin: 0.2rem;
+    margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
@@ -58,6 +59,8 @@ h1{
 
 hr{
     border: solid #9fd3c7 0.1rem;
+    margin:0.2rem;
+
 }
 
 .commentbox-small{                  /*container for acutal Message*/
@@ -96,6 +99,15 @@ img{
     height: 10rem;
     border-radius: 3px;
     object-fit: cover;
+}
+
+p2{
+    margin-top: 15em;
+    color: rgb(0, 214, 252);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin:0.2rem;
+
 }
 
 /*FOR MOBILE DEVICES*/
