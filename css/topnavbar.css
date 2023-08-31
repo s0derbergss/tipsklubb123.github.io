@@ -1,0 +1,32 @@
+.topnavbar{                /*styling av baren itself*/
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    height: fit-content;
+}
+
+.topnavbar a {             /*styling av länkarna inuti baren */
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;   /*position av texten inuti länken */
+    align-items: center;        /*position av texten inuti länken */
+    color: #000080;
+    text-decoration: solid;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.topnavbar a:hover {
+    color: #1e90ff;
+    transition: 1s;
+    background-color: rgba(19, 17, 17, 0.8);
+  }
