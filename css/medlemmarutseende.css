@@ -51,3 +51,65 @@ p{
     font-family: "Montserrat", sans-serif;
 
 }
+
+p1{
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    text-decoration: solid;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+}
+
+p2{
+    color: #358fd8;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+hr{
+    border: solid #9fd3c7 0.1rem;
+}
+
+.commentbox-large{              /*container fpr comment*/
+    height: fit-content;
+    width: 90vw;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border: 0.1rem  black;
+    background: #385170;
+    color: black;
+    padding: 0.5rem;
+}
+
+.commentbox-large > p{
+    margin: 0.1rem;
+    color: rgb(0, 214, 252);
+}
+
+.splitdiv{
+    display: flex;
+}
+
+
+.commentbox-small1, .commentbox-small2{                  /*container for acutal Message*/
+    height: fit-content;
+    width: 45vw;
+    color: black;
+    background: #ececec; 
+
+}
+.commentbox-small1{
+    border-right: 0.1rem solid black;
+    font-weight: bold;
+}
+
+.commentbox-small1 > p, .commentbox-small2 > p{
+    margin: 0.1rem;
+}
+

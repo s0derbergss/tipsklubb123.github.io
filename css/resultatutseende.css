@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+.outer-container{
+        min-width: 100%; /* Or another relative unit or fixed value */
+        max-width: 1200px; /* Maximum width for larger screens */
+        margin: 0 auto; /* Center the container horizontally */
+        padding: 20px; /* Add some spacing around the container */
+        overflow: auto; /* Enable scrollbars if content overflows */
+        min-height: 100vh; /* Limit the container's height to 80% of viewport height */
+        /* Other styling properties */
+        background-image: linear-gradient(to bottom right, #132743, #132743, #142d4c, #142d4c,#385170);
+        
+
+}
+
+.commentbox-large{              /*container fpr comment*/
+    height: fit-content;
+    width: 90vw;
+    margin: 0.2rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border: 0.1rem solid black;
+    border-radius: 2%; 
+    background: #385170;
+    color: black;
+    padding: 0.5rem;
+}
+
+.commentbox-large > p{
+    margin: 0.1rem;
+    color: rgb(0, 214, 252);
+}
+
+hr{
+    border: solid #9fd3c7 0.1rem;
+    margin:0.2rem;
+
+}
+
+.commentbox-small{                  /*container for acutal Message*/
+    border-radius: 2%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 60vh;
+    width: 90vw;
+    color: black;
+
+}
+
+.commentbox-small > p{
+    margin: 0.1rem;
+}
+
+h1{
+    letter-spacing: 3.5rem;
+    font-style: italic;
+    margin: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+    background: linear-gradient(to right, #358fd8, #ffffff);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+h{
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.commentbox-small img{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    display: block;
+    object-fit: contain;
+}
